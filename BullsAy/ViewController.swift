@@ -90,6 +90,5 @@ class ViewController: UIViewController {
     
     @IBAction func sliderMoved(_ slider: UISlider) {
         currentSliderValue = lroundf(slider.value)
-        print("The value of slider is now : \(currentSliderValue)")
     }
 }
